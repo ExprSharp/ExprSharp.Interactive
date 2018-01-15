@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ExprSharp.Repl": {
+      "commandName": "Project"
+    }
+  }
+}

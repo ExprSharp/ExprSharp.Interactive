@@ -3,13 +3,13 @@
 </div>
 
 ![](https://img.shields.io/badge/framework-.netcore2.0-blue.svg)
-![](https://img.shields.io/badge/iexpr.core-v0.5.6-brightgreen.svg)
+![](https://img.shields.io/badge/iexpr.core-v0.5.3-brightgreen.svg)
 ![](http://progressed.io/bar/50?title=done)
 
 + Author: Stardust D.L.
 + Version: 0.1
 
-The REPL environment for ExprSharp *(need ExprSharp.Core)*.
+The REPL environment for ExprSharp.
 
 > ExprSharp: A tiny code language based on [iExpr.Core](https://github.com/iExpr/iExpr.Core).
 
@@ -25,6 +25,11 @@ The REPL environment for ExprSharp *(need ExprSharp.Core)*.
 |`exit`|exit the REPL|
 |`cls`|clear the console|
 |any codes|execute the code|
+
+# Dependencies
+
++ ExprSharp
++ CommandLineParser
 
 # License
 

@@ -3,8 +3,20 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <RuntimeIdentifiers>win-x64;osx-x64</RuntimeIdentifiers>
     <AssemblyName>esi</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>esi_StardustDL.pfx</AssemblyOriginatorKeyFile>
+    <Authors>Stardust D.L.</Authors>
+    <Company>Stardust D.L.</Company>
+    <PackageId>ExprSharp.Interactive</PackageId>
+    <Product>ExprSharp.Interactive</Product>
+    <PackageProjectUrl>https://github.com/ExprSharp/ExprSharp.Interactive</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ExprSharp/ExprSharp.Interactive</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Copyright>LGPL-3.0</Copyright>
+    <PackageLicenseUrl>https://github.com/ExprSharp/ExprSharp.Interactive/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>The REPL environment of ExprSharp.</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

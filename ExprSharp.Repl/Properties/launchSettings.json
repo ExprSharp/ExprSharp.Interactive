@@ -1,7 +1,8 @@
 {
   "profiles": {
     "ExprSharp.Repl": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "workingDirectory": "G:\\设计\\design\\ExprSharp\\test"
     }
   }
 }

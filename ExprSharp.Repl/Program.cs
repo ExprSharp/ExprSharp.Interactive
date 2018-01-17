@@ -1,5 +1,6 @@
 ﻿using CommandLine;
 using ExprSharp.Runtime;
+using iExpr;
 using System;
 using System.IO;
 
@@ -135,7 +136,8 @@ namespace ExprSharp.Repl
         {
             try
             {
-                return runtime.Execute(code);
+                var x = runtime.Execute(code);
+                return x;
             }
             catch (Exception ex)
             {
@@ -154,7 +156,8 @@ namespace ExprSharp.Repl
                         if (File.Exists(path))
                         {
                             var v = run(File.ReadAllText(path));
-                            if (v != null) Console.WriteLine(v.ToString());
+                            var ou = v?.ToString();
+                            if (!String.IsNullOrEmpty(ou)) Console.WriteLine(ou);
                         }
                         else
                         {
@@ -188,7 +191,8 @@ namespace ExprSharp.Repl
                     WithNotParsed(errs =>
                     {
                         var v = run(cmd);
-                        if (v != null) Console.WriteLine(v.ToString());
+                        var ou = v?.ToString();
+                        if (!String.IsNullOrEmpty(ou)) Console.WriteLine(ou);
                     });
         }
     }

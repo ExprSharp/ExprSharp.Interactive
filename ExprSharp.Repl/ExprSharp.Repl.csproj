@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>esi</AssemblyName>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>esi_StardustDL.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>StardustDL-Key.pfx</AssemblyOriginatorKeyFile>
     <Authors>Stardust D.L.</Authors>
     <Company>Stardust D.L.</Company>
     <PackageId>ExprSharp.Interactive</PackageId>
